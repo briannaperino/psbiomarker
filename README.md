@@ -4,7 +4,7 @@
 **Biomarker discovery from phyloseq objects using random forest or
 logistic regression.**
 
-### psbiomarker is an R package focused on microbiome biomarker discovery that works directly with phyloseq objects. It filters low-abundant taxa, transforms counts, rarefys reads, and fits random forest models. The package also ranks the taxa by importance and generates plots to visualize. All of the tasks, phyloseq filtering, ranking and plots, are coompleted within the package pipeline. This package is compatible with 16s 18s, ITS and 28s rRNA. psbiomarker is designed to streamline the process of identifying phenotype-associated microbial signatures using the established data structure of pyhloseq.
+##### psbiomarker is an R package focused on microbiome biomarker discovery that works directly with phyloseq objects. It filters low-abundant taxa, transforms counts, rarefys reads, and fits random forest models. The package also ranks the taxa by importance and generates plots to visualize. All of the tasks, phyloseq filtering, ranking and plots, are coompleted within the package pipeline. This package is compatible with 16s 18s, ITS and 28s rRNA. psbiomarker is designed to streamline the process of identifying phenotype-associated microbial signatures using the established data structure of pyhloseq.
 
 ## Workflow
 
@@ -14,7 +14,7 @@ logistic regression.**
 4. **Plot results** with `plot_ps_importance()`
 5. **Full pipeline** with `run_ps_biomarker_pipeline()`
 
-## Caporaso, J. G., et al. "Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample." PNAS, 108, 4516-4522
+##### Caporaso, J. G., et al. "Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample." PNAS, 108, 4516-4522
 [![R-CMD-check](https://github.com/briannaperino20/psbiomarker/workflows/R-CMD-check/badge.svg)](https://github.com/briannaperino20/psbiomarker/actions)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/psbiomarker)](https://CRAN.R-project.org/package=psbiomarker)
