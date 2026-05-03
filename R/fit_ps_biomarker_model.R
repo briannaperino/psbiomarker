@@ -20,6 +20,8 @@ fit_ps_biomarker_model <- function(ps, group,
   if (!group %in% names(meta)) stop("`group` not found in sample_data(ps).")
 
   x <- as.data.frame(t(as.matrix(phyloseq::otu_table(ps))))
+  colnames(x) <- make.names(colnames(x), unique = TRUE)
+
   dat <- cbind(y = meta[[group]], x)
   dat <- dat[stats::complete.cases(dat), , drop = FALSE]
   dat$y <- as.factor(dat$y)
