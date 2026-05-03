@@ -66,6 +66,9 @@ head(res$ranked_taxa)
 #> Tax1 Tax1   0.000000
 #> Tax5 Tax5  -1.001002
 #> Tax7 Tax7  -1.001002
+
+# Plot
+res$plot
 ```
  ```r
 citation("psbiomarker")
