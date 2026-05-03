@@ -1,5 +1,5 @@
 
-# psbiomarker <img src="man/figures/logo.png" align="right" height="140"/>
+# psbiomarker
 
 **Biomarker discovery from phyloseq objects using random forest or
 logistic regression.**
@@ -15,9 +15,7 @@ logistic regression.**
 5. **Full pipeline** with `run_ps_biomarker_pipeline()`
 
 ##### Caporaso, J. G., et al. "Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample." PNAS, 108, 4516-4522
-[![R-CMD-check](https://github.com/briannaperino20/psbiomarker/workflows/R-CMD-check/badge.svg)](https://github.com/briannaperino20/psbiomarker/actions)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/psbiomarker)](https://CRAN.R-project.org/package=psbiomarker)
+
 
 ## Installation
 
