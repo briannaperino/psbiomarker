@@ -4,7 +4,7 @@
 **Biomarker discovery from phyloseq objects using random forest or
 logistic regression.**
 
-##### psbiomarker is an R package focused on microbiome biomarker discovery that works directly with phyloseq objects. It filters low-abundant taxa, transforms counts, rarefys reads, and fits random forest models. The package also ranks the taxa by importance and generates plots to visualize. All of the tasks, phyloseq filtering, ranking and plots, are coompleted within the package pipeline. This package is compatible with 16s 18s, ITS and 28s rRNA. psbiomarker is designed to streamline the process of identifying phenotype-associated microbial signatures using the established data structure of pyhloseq.
+##### psbiomarker is an R package focused on microbiome biomarker discovery that works directly with phyloseq objects. It filters low-abundant taxa, transforms counts, rarefys reads, and fits random forest models. The package also ranks the taxa by importance and generates plots to visualize. All of the tasks, phyloseq filtering, ranking and plots, are completed within the package pipeline. This package is compatible with 16s 18s, ITS and 28s rRNA. psbiomarker is designed to streamline the process of identifying phenotype-associated microbial signatures using the established data structure of pyhloseq objects.
 
 ## Workflow
 
