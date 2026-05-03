@@ -24,27 +24,7 @@ status](https://www.r-pkg.org/badges/version/psbiomarker)](https://CRAN.R-projec
 ``` r
 # Install from GitHub
 install.packages("remotes")
-#> Installing package into 'C:/Users/bribr/AppData/Local/Temp/RtmpYrcCHI/temp_libpath8f881b342481'
-#> (as 'lib' is unspecified)
-#> package 'remotes' successfully unpacked and MD5 sums checked
-#> 
-#> The downloaded binary packages are in
-#>  C:\Users\bribr\AppData\Local\Temp\RtmpQ1vs8Y\downloaded_packages
 remotes::install_github("briannaperino/psbiomarker")
-#> Using GitHub PAT from the git credential store.
-#> Downloading GitHub repo briannaperino/psbiomarker@HEAD
-#> Skipping 1 packages not available: phyloseq
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>          checking for file 'C:\Users\bribr\AppData\Local\Temp\RtmpQ1vs8Y\remotes3c841a9c565a\briannaperino-psbiomarker-d373596/DESCRIPTION' ...  ✔  checking for file 'C:\Users\bribr\AppData\Local\Temp\RtmpQ1vs8Y\remotes3c841a9c565a\briannaperino-psbiomarker-d373596/DESCRIPTION' (665ms)
-#>       ─  preparing 'psbiomarker':
-#>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-#>       ─  checking for LF line-endings in source and make files and shell scripts
-#>       ─  checking for empty or unneeded directories
-#>       ─  building 'psbiomarker_0.0.0.9000.tar.gz'
-#>      
-#> 
-#> Installing package into 'C:/Users/bribr/AppData/Local/Temp/RtmpYrcCHI/temp_libpath8f881b342481'
-#> (as 'lib' is unspecified)
 ```
 
 ## Quick start
